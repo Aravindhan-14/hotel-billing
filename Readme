@@ -1,0 +1,11 @@
+here it is a simple billing software work on  offline
+Hotel Billing App (Android Studio Build Guide)
+
+1. Open Android Studio
+2. Click "Open an new project"
+3. select main.java file and paste it 
+3.1 slect xml.main file then paste it on a layout page
+4. Let Gradle sync finish
+5. Click "Run" or "Build APK"
+6. Install the APK file on your phone 
+7.if code shows try to connecting a mobile and then download
