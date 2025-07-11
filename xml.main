@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="Hotel Billing App" android:textSize="24sp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Idli (₹10):" />
+        <EditText android:id="@+id/idliQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Dosa (₹10):" />
+        <EditText android:id="@+id/dosaQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Parotta (₹15):" />
+        <EditText android:id="@+id/parottaQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Omlet (₹20):" />
+        <EditText android:id="@+id/omletQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Offboil (₹15):" />
+        <EditText android:id="@+id/offboilQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Poori Set (₹40):" />
+        <EditText android:id="@+id/pooriSetQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Poori Single (₹20):" />
+        <EditText android:id="@+id/pooriSingleQty" android:inputType="number" android:hint="Quantity" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/calcBtn" android:text="Calculate Total" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/clearBtn" android:text="Clear" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/resultTxt" android:textSize="20sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Total: ₹0"/>
+    </LinearLayout>
+</ScrollView>
